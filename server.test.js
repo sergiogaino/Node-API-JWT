@@ -1,0 +1,1 @@
+require('./tests/user.test');

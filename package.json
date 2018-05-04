@@ -1,0 +1,39 @@
+{
+  "name": "authmodule",
+  "version": "1.0.0",
+  "description": "Módulo de autenticação - JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha server.test.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "API",
+    "Authentication",
+    "JWT"
+  ],
+  "author": "Sergio Gaino Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "nodemon": "^1.11.0",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "4.10.3"
+  }
+}
